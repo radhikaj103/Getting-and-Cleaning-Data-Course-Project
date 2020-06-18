@@ -23,7 +23,7 @@ Step Six: Create the final tidy dataset with the average of the mean and std mea
 The tidy data file is a .txt file that can be read into R using the following code. 
 
 ```R
-read.table("tidyDataSet.txt", header=TRUE)
+read.table("tidySamsungDataSet.txt", header=TRUE)
 ```
 
 
