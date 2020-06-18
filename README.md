@@ -14,9 +14,16 @@ Step Three: Extract the mean() and std() measurements for all the features in th
 
 Step Four: Read the files with the activity labels for the training and test datasets, bind them together and then merge with the dataset. The activityLabels column is a fator with 6 levels represented by the numbers 1-6. Recode the labels using the activity names from the activity_labels.txt file. 
 
-Step Five: Change the dataset to a long format with four columns- activityLabel, feature, mean, std. Remove NAs from the feature names that had been introduced earlier
+Step Five: Change the dataset to a long format with five columns- subject, activityLabel, feature, mean, std. Remove NAs from the feature names that had been introduced earlier
 
-Step Six: Create the final tidy dataset with the average of the mean and std measuremenets for each feature and for each activity and each observation. The tidy dataset contains four columns- activityLabel, feature, avgMean, and avgStd and has been saved as a txt file. The description of the each column (variable) and the features is provided in the accompanying code book. 
+Step Six: Create the final tidy dataset with the average of the mean and std measuremenets for each feature and for each activity and each subject. The tidy dataset contains five columns- subject, activityLabel, feature, avgMean, and avgStd and has been saved as a txt file. The description of each column (variable) and the features is provided in the accompanying code book. 
+
+## Files in the repository
+
+1. README.md
+2. tidySamsungDataSet.txt 
+3. CodeBook.pdf
+4. run_analysis.R
 
 ## Reading the tidy data file 
 
